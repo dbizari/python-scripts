@@ -1,0 +1,188 @@
+<mxfile host="app.diagrams.net" modified="2024-01-26T16:14:09.197Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="HzqPkxk6tR1TngALPFvS" version="23.0.2" type="device">
+  <diagram name="Page-1" id="1_ODOLjHG_x7mnCUMFCd">
+    <mxGraphModel dx="3189" dy="1349" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Vmr7AsAIUmtt13fed3Mu-1" value="Ring Notification System&lt;br&gt;1. customer should get notification for all devices&lt;br&gt;3. one device can generate notification multiple customers&lt;br&gt;&lt;br&gt;2. snooze and decide times for notification" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="90" width="410" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Vmr7AsAIUmtt13fed3Mu-2" value="Device" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="980" y="340" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Vmr7AsAIUmtt13fed3Mu-3" value="Device" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="990" y="350" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Vmr7AsAIUmtt13fed3Mu-4" value="Device" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="360" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Vmr7AsAIUmtt13fed3Mu-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="Vmr7AsAIUmtt13fed3Mu-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="790" y="390" as="sourcePoint" />
+            <mxPoint x="890" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vmr7AsAIUmtt13fed3Mu-6" value="Server" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="830" y="325" width="100" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Vmr7AsAIUmtt13fed3Mu-7" value="Customer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Vmr7AsAIUmtt13fed3Mu-8" value="Customer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Vmr7AsAIUmtt13fed3Mu-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Vmr7AsAIUmtt13fed3Mu-9" target="Vmr7AsAIUmtt13fed3Mu-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vmr7AsAIUmtt13fed3Mu-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Vmr7AsAIUmtt13fed3Mu-9" target="Vmr7AsAIUmtt13fed3Mu-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vmr7AsAIUmtt13fed3Mu-9" value="Ring Notification SYstem" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="160" width="120" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="Vmr7AsAIUmtt13fed3Mu-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.033;entryY=0.443;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Vmr7AsAIUmtt13fed3Mu-6" target="Vmr7AsAIUmtt13fed3Mu-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vmr7AsAIUmtt13fed3Mu-14" value="events - JSON" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="750" y="290" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Vmr7AsAIUmtt13fed3Mu-16" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="660" as="sourcePoint" />
+            <mxPoint x="1340" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vmr7AsAIUmtt13fed3Mu-17" value="SQS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="960" y="820" width="95" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Vmr7AsAIUmtt13fed3Mu-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Vmr7AsAIUmtt13fed3Mu-19" target="Vmr7AsAIUmtt13fed3Mu-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vmr7AsAIUmtt13fed3Mu-19" value="Events - JSON&lt;br&gt;&lt;br&gt;device UUID&lt;br&gt;payload" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1350" y="820" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Vmr7AsAIUmtt13fed3Mu-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Vmr7AsAIUmtt13fed3Mu-21" target="Vmr7AsAIUmtt13fed3Mu-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="820" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vmr7AsAIUmtt13fed3Mu-21" value="EventProcessorLambda" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="545" y="815" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Vmr7AsAIUmtt13fed3Mu-22" value="" style="endArrow=classic;html=1;rounded=0;entryX=1.012;entryY=0.394;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="Vmr7AsAIUmtt13fed3Mu-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="960" y="840" as="sourcePoint" />
+            <mxPoint x="1010" y="790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vmr7AsAIUmtt13fed3Mu-24" value="CUSTOMER" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-210" y="928" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Vmr7AsAIUmtt13fed3Mu-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="Vmr7AsAIUmtt13fed3Mu-25" target="Vmr7AsAIUmtt13fed3Mu-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vmr7AsAIUmtt13fed3Mu-25" value="3P system&lt;br&gt;&lt;br&gt;sends notificaiton to the customer, and customer is identified by token&lt;br&gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="765" width="185" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="Vmr7AsAIUmtt13fed3Mu-27" value="Customer-Device Mapping Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="1022" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Vmr7AsAIUmtt13fed3Mu-31" value="customer token&lt;br&gt;event payload&lt;br&gt;device uuid&lt;br&gt;detectionEventType - event&lt;br&gt;datetime stamp" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="715" y="725" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Vmr7AsAIUmtt13fed3Mu-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Vmr7AsAIUmtt13fed3Mu-32" target="Vmr7AsAIUmtt13fed3Mu-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vmr7AsAIUmtt13fed3Mu-32" value="Render Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="700" width="120" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="Vmr7AsAIUmtt13fed3Mu-33" value="trade device UUID with customer token" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="730" y="960" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Vmr7AsAIUmtt13fed3Mu-35" value="payload: there&#39;s a person at your door step" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-165" y="680.5" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Vmr7AsAIUmtt13fed3Mu-36" value="{&lt;br&gt;&amp;nbsp; isPerson: true&lt;br&gt;}&lt;br&gt;detectionEventType" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="735" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Vmr7AsAIUmtt13fed3Mu-37" value="payload: there&#39;s a person at your door step&lt;br&gt;custoemr token" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="110" y="725" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Vmr7AsAIUmtt13fed3Mu-40" value="rules:&lt;br&gt;1. i want to get notification at 22:00 everyday&lt;br&gt;2. i want to get notification every Monday and Tuesday&lt;br&gt;3. I don&#39;t want to receive notification" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="810" y="1580" width="310" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Vmr7AsAIUmtt13fed3Mu-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Vmr7AsAIUmtt13fed3Mu-43" target="Vmr7AsAIUmtt13fed3Mu-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vmr7AsAIUmtt13fed3Mu-43" value="Customer-Rule mapping Service&lt;br&gt;Fargate/ECS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="505" y="1120" width="210" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Vmr7AsAIUmtt13fed3Mu-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="Vmr7AsAIUmtt13fed3Mu-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="550" y="845" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vmr7AsAIUmtt13fed3Mu-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Vmr7AsAIUmtt13fed3Mu-47" target="Vmr7AsAIUmtt13fed3Mu-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vmr7AsAIUmtt13fed3Mu-47" value="CUSTOMER" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="1125" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Vmr7AsAIUmtt13fed3Mu-49" value="customerId: [&lt;br&gt;rule1, rule2, ....]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="500" y="1610" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Vmr7AsAIUmtt13fed3Mu-53" value="Storage - DDB&lt;br&gt;&lt;br&gt;customerId" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="1350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Vmr7AsAIUmtt13fed3Mu-54" value="ruleid: {&lt;br&gt;inactivePeriod: {&lt;br&gt;#monday 9:00 to Tuesday 13:00&lt;br&gt;detectionEventType&lt;br&gt;..&lt;br&gt;}&lt;br&gt;}" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="655" y="1425" width="190" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Vmr7AsAIUmtt13fed3Mu-56" value="Storage - DDB&lt;br&gt;&lt;br&gt;ruleId" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="1350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Vmr7AsAIUmtt13fed3Mu-58" value="customerId: {&lt;br&gt;rules: [&lt;br&gt;ruleId001,&lt;br&gt;ruleId002,&lt;br&gt;]&lt;br&gt;&lt;br&gt;}" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="475" y="1425" width="90" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Vmr7AsAIUmtt13fed3Mu-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.392;entryY=-0.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Vmr7AsAIUmtt13fed3Mu-43" target="Vmr7AsAIUmtt13fed3Mu-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vmr7AsAIUmtt13fed3Mu-61" value="input: customerId&lt;br&gt;datetime&lt;br&gt;detectionEventType&lt;br&gt;&lt;br&gt;&lt;br&gt;output: canBeSent" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="715" y="1135" width="130" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Vmr7AsAIUmtt13fed3Mu-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.71;entryY=-0.005;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Vmr7AsAIUmtt13fed3Mu-21" target="Vmr7AsAIUmtt13fed3Mu-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vmr7AsAIUmtt13fed3Mu-65" value="10 Billions event per day" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="910" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Vmr7AsAIUmtt13fed3Mu-67" value="SQS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="970" y="830" width="95" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Vmr7AsAIUmtt13fed3Mu-68" value="SQS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="980" y="840" width="95" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Vmr7AsAIUmtt13fed3Mu-69" value="SQS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="990" y="850" width="95" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Vmr7AsAIUmtt13fed3Mu-70" value="SQS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="860" width="95" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Vmr7AsAIUmtt13fed3Mu-71" value="SQS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="870" width="95" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Vmr7AsAIUmtt13fed3Mu-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Vmr7AsAIUmtt13fed3Mu-72" target="Vmr7AsAIUmtt13fed3Mu-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vmr7AsAIUmtt13fed3Mu-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="Vmr7AsAIUmtt13fed3Mu-72" target="Vmr7AsAIUmtt13fed3Mu-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vmr7AsAIUmtt13fed3Mu-72" value="SNS" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="830" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Vmr7AsAIUmtt13fed3Mu-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.842;entryY=0.047;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Vmr7AsAIUmtt13fed3Mu-72" target="Vmr7AsAIUmtt13fed3Mu-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
